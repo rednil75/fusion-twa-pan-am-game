@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Fusion TWA - Pan Am</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Fusion TWA / Pan Am</h1>
+  <div id="game">
+    <p>Année : <span id="year">1985</span></p>
+    <button onclick="advanceYear()">Suivant</button>
+    <div id="dashboard">
+      <p>Argent : $<span id="money">100000000</span></p>
+      <p>Réputation : <span id="reputation">50</span>/100</p>
+      <p>Flotte : <span id="fleet">20</span> avions</p>
+    </div>
+    <div id="map"></div>
+  </div>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="main.js"></script>
+  <script src="map.js"></script>
+</body>
+</html>
